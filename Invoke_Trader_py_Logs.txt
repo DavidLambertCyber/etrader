@@ -1,0 +1,4 @@
+2022-03-26T04:28:23-0400|INFO|Start: E:\ws\ETrader\etrader\Invoke_Trader.py
+2022-03-26T04:28:23-0400|INFO|CONFIG.ini processed
+2022-03-26T04:29:03-0400|INFO|get_quotes(): OK| Status Code: 200
+2022-03-26T04:29:03-0400|INFO|revoke_token(): 200| Status Code: 200
