@@ -156,7 +156,8 @@ class ETrade:
   def get_quotes(self,symbols='GOOG,IBM',session_params={'detailFlag':'ALL'}):
     # returns array of quote response
     global RESTFUL_WAIT
-    #todo working support more than 25 symbols by repeat calling market.get_quotes
+    # todo remove any support more than 25 symbols by repeat calling market.get_quotes
+    # todo add check for > 25 symbols
     #split symbols by , to List, rebuild first 25, and so on.
     self.__clear_response()
     lSym = self._convertStrCSV_toList(symbols)
